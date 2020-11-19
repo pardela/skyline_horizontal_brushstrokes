@@ -1,0 +1,6 @@
+setup.py
+src/skyline_horizontal_brushstrokes.egg-info/PKG-INFO
+src/skyline_horizontal_brushstrokes.egg-info/SOURCES.txt
+src/skyline_horizontal_brushstrokes.egg-info/dependency_links.txt
+src/skyline_horizontal_brushstrokes.egg-info/requires.txt
+src/skyline_horizontal_brushstrokes.egg-info/top_level.txt
