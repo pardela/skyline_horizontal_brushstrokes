@@ -1,16 +1,23 @@
-# This is a sample Python script.
+from skyline_horizontal_brushstrokes.skyline_horizontal_brushstrokes import count_skyline_horizontal_brushstrokes
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+count_skyline_horizontal_brushstrokes([]);
+
+building_height = 5;
+print(count_skyline_horizontal_brushstrokes([building_height]));
+
+building1_height = 5;
+building2_height = 8;
+print(count_skyline_horizontal_brushstrokes([building1_height, building2_height]));
+
+print(count_skyline_horizontal_brushstrokes([1,1,1,1]));
+
+print(count_skyline_horizontal_brushstrokes([1,3,2,1,2,1,5,3,3,4,2]));
+
+print(count_skyline_horizontal_brushstrokes([20000000000,3000000000]));
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
